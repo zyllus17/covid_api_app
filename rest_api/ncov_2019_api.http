@@ -1,3 +1,4 @@
+#If baseUrl shows error, change Environment from the bottom to sandbox
 # Used to get an access token given an authorization key
 POST {{baseUrl}}/token
 Authorization: Basic {{authorization}}

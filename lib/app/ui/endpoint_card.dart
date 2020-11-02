@@ -22,7 +22,7 @@ class EndpointCard extends StatelessWidget {
               style: Theme.of(context).textTheme.headline3,
             ),
             Text(
-              value != null ? value.toString() : '',
+              value != null ? value.toString() : 'Fail',
               style: Theme.of(context).textTheme.headline4,
             )
           ],
